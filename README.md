@@ -89,10 +89,10 @@ pry(main)> room_2 = Room.new(:bedroom, 11, 15)
 #=> #<Room:0x00007fccd2985f48...>
 
 pry(main)> room_3 = Room.new(:living_room, 25, 15)
-#=> #<Room:0x00007fccd383c2d0 @category=:living_room, @length=25, @width=15>
+#=> #<Room:0x00007fccd383c2d0...>
 
 pry(main)> room_4 = Room.new(:basement, 30, 41)
-#=> #<Room:0x00007fccd297dc30 @category=:basement, @length=30, @width=41>
+#=> #<Room:0x00007fccd297dc30...>
 
 pry(main)> house.add_room(room_1)
 #=> [#<Room:0x00007fccd29b5720...]
@@ -157,7 +157,7 @@ pry(main)> house.add_room(room_4)
 pry(main)> house.price_per_square_foot
 #=> 210.53
 
-pry(main)> house.rooms_by_area
+pry(main)> house.rooms_sorted_by_area
 #=> [#<Room:0x00007fccd297dc30...>, #<Room:0x00007fccd383c2d0...>, #<Room:0x00007fccd2985f48...>, #<Room:0x00007fccd29b5720...>]
 
 pry(main)> house.rooms_by_category
