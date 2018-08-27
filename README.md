@@ -2,7 +2,7 @@
 
 ## Setup
 
-* Fork [this Repository](https://github.com/turingschool-examples/morse_translator)
+* Fork [this Repository](https://github.com/turingschool-examples/real_estate)
 * Clone YOUR fork
 * Compete the activity below
 * Push your solution to your fork
