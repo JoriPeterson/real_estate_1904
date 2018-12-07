@@ -59,10 +59,8 @@ pry(main)> room_2 = Room.new(:bedroom, 11, 15)
 #=> #<Room:0x00007fccd2985f48...>
 
 pry(main)> house.add_room(room_1)
-#=> [#<Room:0x00007fccd29b5720...]
 
 pry(main)> house.add_room(room_2)    
-#=> [#<Room:0x00007fccd29b5720...>, #<Room:0x00007fccd2985f48...>]
 
 pry(main)> house.rooms
 #=> [#<Room:0x00007fccd29b5720...>, #<Room:0x00007fccd2985f48...>]
@@ -95,16 +93,12 @@ pry(main)> room_4 = Room.new(:basement, 30, 41)
 #=> #<Room:0x00007fccd297dc30...>
 
 pry(main)> house.add_room(room_1)
-#=> [#<Room:0x00007fccd29b5720...]
 
 pry(main)> house.add_room(room_2)    
-#=> [#<Room:0x00007fccd29b5720...>, #<Room:0x00007fccd2985f48...>]
 
 pry(main)> house.add_room(room_3)
-#=> [#<Room:0x00007fccd29b5720...>, #<Room:0x00007fccd2985f48...>, #<Room:0x00007fccd383c2d0...>]
 
 pry(main)> house.add_room(room_4)
-#=> [#<Room:0x00007fccd29b5720...>, #<Room:0x00007fccd2985f48...>, #<Room:0x00007fccd383c2d0...>, #<Room:0x00007fccd297dc30...>]
 
 pry(main)> house.rooms_from_category(:bedroom)
 #=> [#<Room:0x00007fccd29b5720...>, #<Room:0x00007fccd2985f48...>]
